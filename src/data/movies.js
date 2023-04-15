@@ -638,7 +638,207 @@ const moviesData = [
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
-  }
+  },
+   {
+    "Title": "Kill Bill: Vol. 1",
+    "Year": "2003",
+    "Rated": "R",
+    "Released": "10 Oct 2003",
+    "Runtime": "111 min",
+    "Genre": "Action, Crime, Drama",
+    "Director": "Quentin Tarantino",
+    "Writer": "Quentin Tarantino, Uma Thurman",
+    "Actors": "Uma Thurman, David Carradine, Daryl Hannah",
+    "Plot": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+    "Language": "English, Japanese, French",
+    "Country": "United States",
+    "Awards": "Nominated for 5 BAFTA 29 wins & 104 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.2/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "85%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "69/100"
+      }
+    ],
+    "Metascore": "69",
+    "imdbRating": "8.2",
+    "imdbVotes": "1,130,566",
+    "imdbID": "tt0266697",
+    "Type": "movie",
+    "DVD": "13 Apr 2004",
+    "BoxOffice": "$70,099,045",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Now You See Me",
+    "Year": "2013",
+    "Rated": "PG-13",
+    "Released": "31 May 2013",
+    "Runtime": "115 min",
+    "Genre": "Crime, Mystery, Thriller",
+    "Director": "Louis Leterrier",
+    "Writer": "Ed Solomon, Boaz Yakin, Edward Ricourt",
+    "Actors": "Jesse Eisenberg, Common, Mark Ruffalo",
+    "Plot": "An F.B.I. Agent and an Interpol Detective track a team of illusionists who pull off bank heists during their performances, and reward their audiences with the money.",
+    "Language": "English, French",
+    "Country": "United States, France",
+    "Awards": "1 win & 3 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTY0NDY3MDMxN15BMl5BanBnXkFtZTcwOTM5NzMzOQ@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.2/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "50%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "50/100"
+      }
+    ],
+    "Metascore": "50",
+    "imdbRating": "7.2",
+    "imdbVotes": "672,310",
+    "imdbID": "tt1670345",
+    "Type": "movie",
+    "DVD": "03 Sep 2013",
+    "BoxOffice": "$117,723,989",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Jason Bourne",
+    "Year": "2016",
+    "Rated": "PG-13",
+    "Released": "29 Jul 2016",
+    "Runtime": "123 min",
+    "Genre": "Action, Thriller",
+    "Director": "Paul Greengrass",
+    "Writer": "Paul Greengrass, Christopher Rouse, Robert Ludlum",
+    "Actors": "Matt Damon, Tommy Lee Jones, Alicia Vikander",
+    "Plot": "The CIA's most dangerous former operative is drawn out of hiding to uncover more explosive truths about his past.",
+    "Language": "English, Greek, German, Japanese",
+    "Country": "United States, China, Spain, Japan, Germany",
+    "Awards": "3 wins & 20 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNGJlYjVkMjQtN2NlZC00NTJhLThmZjItMTRlZDczMmE3YmI3XkEyXkFqcGdeQXVyMzI0NDc4ODY@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "54%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "58/100"
+      }
+    ],
+    "Metascore": "58",
+    "imdbRating": "6.6",
+    "imdbVotes": "232,070",
+    "imdbID": "tt4196776",
+    "Type": "movie",
+    "DVD": "06 Dec 2016",
+    "BoxOffice": "$162,434,410",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Project X",
+    "Year": "2012",
+    "Rated": "R",
+    "Released": "02 Mar 2012",
+    "Runtime": "88 min",
+    "Genre": "Comedy",
+    "Director": "Nima Nourizadeh",
+    "Writer": "Matt Drake, Michael Bacall",
+    "Actors": "Thomas Mann, Oliver Cooper, Jonathan Daniel Brown",
+    "Plot": "Three high-school seniors throw a birthday party to make a name for themselves. As the night progresses, things spiral out of control as word of the party spreads.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "5 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTc1MTk0Njg4OF5BMl5BanBnXkFtZTcwODc0ODkyNw@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "28%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "48/100"
+      }
+    ],
+    "Metascore": "48",
+    "imdbRating": "6.6",
+    "imdbVotes": "217,509",
+    "imdbID": "tt1636826",
+    "Type": "movie",
+    "DVD": "19 Jun 2012",
+    "BoxOffice": "$54,731,865",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "12 Angry Men",
+    "Year": "1957",
+    "Rated": "Approved",
+    "Released": "10 Apr 1957",
+    "Runtime": "96 min",
+    "Genre": "Crime, Drama",
+    "Director": "Sidney Lumet",
+    "Writer": "Reginald Rose",
+    "Actors": "Henry Fonda, Lee J. Cobb, Martin Balsam",
+    "Plot": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 3 Oscars. 17 wins & 13 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "9.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "100%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "97/100"
+      }
+    ],
+    "Metascore": "97",
+    "imdbRating": "9.0",
+    "imdbVotes": "803,154",
+    "imdbID": "tt0050083",
+    "Type": "movie",
+    "DVD": "04 Mar 2008",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
 ]
 
 export default moviesData;

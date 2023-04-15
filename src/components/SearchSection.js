@@ -38,7 +38,7 @@ const SearchSection = () => {
 				</span>
 			</div>
 
-			{found !== moviesData.length && <h4 className="found">Found Results : {found} </h4>}
+			{found !== moviesData.length && <h4 className="found">Found {found} Results</h4>}
 
 			<MoviesSection 
 				movies={filteredMovies} 
