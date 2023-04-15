@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	font-family: "Segoe UI", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 2rem;
+}
+
+main {
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.search-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.search-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+	/*border: 1px solid black;*/
+	width: min(300px, 90%);
+	border-radius: 8px;
+	padding:5px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.search-input {
+	border: none;
+	text-indent: 15px;
+}
+
+.search-input:focus {
+	outline: none;
+}
+
+.movies-list {
+	margin: 20px 10px;
+	display: flex;
+	justify-content: center;
+	width: 95%;
+	flex-wrap: wrap;
+	align-content: space-between;
+
+}
+
+.movie-card {
+	display: flex;
+	margin: 8px;
+	padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 14px 4px rgba(0, 0, 0, 0.2);;
+}
+
+.movie-poster {
+	width: 100px;
+	height: 148px;
+	margin-right: 10px;
+	border-radius: 8px; 
+}
+
+.movie-info {
+	font-size: 30px;
+}
+
+.movie-title {
+	font-weight: bold;
+	font-size: 0.6em;
+}
+
+.movie-year {
+	font-weight: normal;
+	font-size: 0.8em;
+	color: grey;
+	margin-left: 10px;
+}
+
+.movie-genre {
+	font-size: 0.42em;
+}
+
+.movie-runtime {
+	font-size: 0.42em;
+}
+
+.movie-rating {
+	font-size: 0.42em;
+}
+
+.movie-plot {
+	margin-top: 8px;
+	font-size: 0.4em;
+}
