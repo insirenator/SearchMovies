@@ -26,7 +26,7 @@ const Movie = ({ movie }) => {
 const MoviesSection = ({ movies, searchVal }) => {
 
 	const filteredMovies = movies.filter((mv) => {
-		return mv.Title.toLowerCase().includes(searchVal.toLowerCase())
+		return mv.Title.toLowerCase().includes(searchVal.trim().toLowerCase())
 	});
 
 	const moviesList = filteredMovies.map((mv, idx) => {
