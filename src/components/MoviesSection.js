@@ -16,7 +16,7 @@ const Movie = ({ movie }) => {
 				
 				<p className="movie-genre">{movie.Genre}</p>
 				<p className="movie-runtime">{movie.Runtime}</p>
-				<p className="movie-rating">ImDb Rating : {movie.imdbRating}/10</p>
+				<p className="movie-rating">ImDb: {movie.imdbRating}/10</p>
 				<p className="movie-plot">{movie.Plot}</p>
 			</div>
 		</div>
