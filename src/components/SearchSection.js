@@ -5,9 +5,22 @@ import moviesData from '../data/movies';
 const SearchSection = () => {
 
 	const [inputVal, setInputVal] = React.useState("");
+	const [filteredMovies, setFilteredMovies] = React.useState(moviesData);
+	const [found, setFound] = React.useState(filteredMovies.length);
 
 	function handleChange(event) {
-		setInputVal(event.target.value);
+		const newInputVal = event.target.value;
+		const newFilteredMovies = filterMovies(moviesData, newInputVal);
+		
+		setFilteredMovies(newFilteredMovies);
+		setFound(newFilteredMovies.length);
+		setInputVal(newInputVal);
+	}
+
+	function filterMovies(moviesData, inputVal) {
+		return moviesData.filter((mv) => {
+			return mv.Title.toLowerCase().includes(inputVal.trim().toLowerCase())
+		})
 	}
 
 	return (
@@ -25,7 +38,11 @@ const SearchSection = () => {
 				</span>
 			</div>
 
-			<MoviesSection movies={moviesData} searchVal = {inputVal} />
+			{found !== moviesData.length && <h4 className="found">Found Results : {found} </h4>}
+
+			<MoviesSection 
+				movies={filteredMovies} 
+			/>
 		</div>
 	);
 }

@@ -17,6 +17,11 @@ main {
 	align-items: center;
 }
 
+.title {
+	letter-spacing: -2px;
+	text-shadow: 2px 1px 5px rgba(0,0,0,0.5);
+}
+
 .search-section {
 	display: flex;
 	flex-direction: column;
@@ -48,6 +53,10 @@ main {
 	outline: none;
 }
 
+.found {
+	color: rgba(50,50,50,0.8);
+}
+
 .movies-list {
 	margin: 20px 10px;
 	display: flex;
@@ -55,7 +64,6 @@ main {
 	width: 95%;
 	flex-wrap: wrap;
 	align-content: space-between;
-
 }
 
 .movie-card {
